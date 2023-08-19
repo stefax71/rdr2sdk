@@ -1,13 +1,6 @@
 ﻿#pragma once
 
-#include <memory>
-
-#include "RDREntity.h"
-#include "../RDREnums.h"
-#include "../Logger/RdrLogger.h"
-
-
-class MapArea;
+#include "../rdr2sdk.h"
 
 enum gender
 {

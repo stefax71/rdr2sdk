@@ -2,11 +2,17 @@
 #include <math.h>
 #include <random>
 #include <sstream>
+#include <memory>
 
 #include "native/natives.h"
 #include "native/types.h"
 
+#include "RDREnums.h"
 #include "Math/MathUtils.h"
+#include "World/Gang.h"
+#include "Map/MapAreasManager.h"
+#include "Logger/RdrLogger.h"
+#include "Objects/RDREntity.h"
 // #include "Objects/RDRPlayer.h"
 // #include "UI/UISubTitle.h"
 // #include "Input/keyboard.h"

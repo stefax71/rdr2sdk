@@ -1,6 +1,4 @@
 ﻿#include "../../public/Objects/RDRPed.h"
-#include "../../public/World/Gang.h"
-#include "../../public/Map/MapAreasManager.h"
 
 #include <sstream>
 
