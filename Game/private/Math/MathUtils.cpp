@@ -1,6 +1,7 @@
 #include "../../public/Math/MathUtils.h"
 
 
+
 //Converts Radians to Degrees
 float degToRad(float degs)
 {
@@ -154,7 +155,7 @@ Vector3 operator* (Vector3 const& left, Vector3 const& right)
 
 std::string vector_to_string(Vector3 vector)
 {
-	stringstream position;
+	std::stringstream position;
 	position << "{ X = " << vector.x << ", Y = " << vector.y << ", Z = " << vector.z << "}";
 	return position.str();
 }

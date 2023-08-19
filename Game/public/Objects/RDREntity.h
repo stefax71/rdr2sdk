@@ -1,8 +1,6 @@
 ﻿#pragma once
-#pragma once
 
-#include "../native/types.h"
-#include "../native/natives.h"
+#include "../rdr2sdk.h"
 
 namespace game
 {

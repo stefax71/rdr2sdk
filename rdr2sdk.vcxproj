@@ -240,7 +240,7 @@
     <ClCompile Include="Game\private\Logger\RdrLogger.cpp" />
     <ClCompile Include="Game\private\Map\MapArea.cpp" />
     <ClCompile Include="Game\private\Map\MapAreasManager.cpp" />
-    <ClCompile Include="Game\private\Math\Math.cpp" />
+    <ClCompile Include="Game\private\Math\MathUtils.cpp" />
     <ClCompile Include="Game\private\Objects\RDREntity.cpp" />
     <ClCompile Include="Game\private\Objects\RdrHorse.cpp">
       <AssemblerOutput>NoListing</AssemblerOutput>
