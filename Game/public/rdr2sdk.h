@@ -3,16 +3,19 @@
 #include <random>
 #include <sstream>
 #include <memory>
+#include <unordered_map>
+#include <mutex>
+#include <vector>
 
 #include "native/natives.h"
 #include "native/types.h"
 
 #include "RDREnums.h"
+#include "Logger/RdrLogger.h"
 #include "Pool/ObjectPool.h"
 #include "Math/MathUtils.h"
 #include "World/Gang.h"
 #include "Map/MapAreasManager.h"
-#include "Logger/RdrLogger.h"
 #include "Objects/RDREntity.h"
 // #include "Objects/RDRPed.h"
 // #include "Objects/RDRPlayer.h"

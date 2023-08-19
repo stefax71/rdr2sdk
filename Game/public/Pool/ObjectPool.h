@@ -1,12 +1,7 @@
 ﻿#pragma once
-#include <memory>
-#include <unordered_map>
-#include <mutex>
-#include <sstream>
 
-#include "../Objects/RDREntity.h"
-#include "../Logger/RdrLogger.h"
-#include "../native/types.h"
+#include "../rdr2sdk.h"
+
 
 template <typename EntityType, typename... Args>
 class ObjectPool

@@ -1,10 +1,6 @@
 ﻿#pragma once
 
-#include <string>
-#include <unordered_map>
-#include <vector>
-
-#include "../native/types.h"
+#include "../rdr2sdk.h"
 
 
 namespace gang
