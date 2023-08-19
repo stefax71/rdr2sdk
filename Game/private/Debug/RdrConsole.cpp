@@ -1,9 +1,9 @@
 ﻿#include "../../public/Debug/RdrConsole.h"
 
-#include <sstream>
-
-#include "../../public/Logger/RdrLogger.h"
-#include "../../public/native/natives.h"
+// #include <sstream>
+//
+// #include "../../public/Logger/RdrLogger.h"
+// #include "../../public/native/natives.h"
 
 void RdrConsole::write_to_console(std::string text)
 {

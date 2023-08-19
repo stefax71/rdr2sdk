@@ -1,9 +1,6 @@
 ﻿#pragma once
-#include <deque>
-#include <string>
-#include <vector>
-#include <chrono>
-#include <mutex>
+
+#include "../rdr2sdk.h"
 
 class RdrConsole
 {
