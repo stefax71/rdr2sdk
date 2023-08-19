@@ -158,7 +158,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <Lib>
-      <AdditionalOptions>..\lib\ScriptHookRDR2.lib %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>.\lib\ScriptHookRDR2.lib %(AdditionalOptions)</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
