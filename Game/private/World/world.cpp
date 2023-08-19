@@ -1,14 +1,6 @@
-#include "../../public/World/world.h"
 #define _USE_MATH_DEFINES
-
-#include <random>
 #include <cmath>
-
-#include "../../public/native/types.h"
-#include "..\..\public\Math\MathUtils.h"
-	
-	
-
+#include "../../public/World/world.h"
 
 void getGroundPos(Vector3 originalPos, Vector3* outPos)
 {

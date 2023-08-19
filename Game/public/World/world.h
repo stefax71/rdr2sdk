@@ -1,10 +1,11 @@
 #pragma once
 
+#include "../rdr2sdk.h"
 #include <ctime>
 
 #include "../native/types.h"
 
-using namespace std;
+// using namespace std;
 
 const Hash BLIP_STYLE_ENEMY = 0x318C617C;
 const Hash BLIP_TYPE_BOUNTY_TARGET = 0x38CDE89D;
