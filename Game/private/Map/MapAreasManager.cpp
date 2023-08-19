@@ -1,6 +1,6 @@
 #include "../../public/Map/MapArea.h"
 #include "../../public/Map/MapAreasManager.h"
-#include "../../public/Math/Math.h"
+#include "..\..\public\Math\MathUtils.h"
 
 MapAreasManager::MapAreasManager()
 {

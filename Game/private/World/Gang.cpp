@@ -1,5 +1,5 @@
 ﻿#include "../../public/World/Gang.h"
-#include "../../public/Math/Math.h"
+#include "..\..\public\Math\MathUtils.h"
 
 namespace gang
 {

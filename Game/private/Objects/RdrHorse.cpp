@@ -1,5 +1,5 @@
 ﻿#include "../../public/Objects/RdrHorse.h"
-#include "../../public/Math/Math.h"
+#include "..\..\public\Math\MathUtils.h"
 
 namespace game
 {

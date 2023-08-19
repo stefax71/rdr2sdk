@@ -1,5 +1,5 @@
 ﻿#include "../../public/Objects/RDREntity.h"
-#include "../../../Game/public/rdr2.h"
+#include "..\..\public\rdr2sdk.h"
 
 namespace game
 {

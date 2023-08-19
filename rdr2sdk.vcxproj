@@ -240,7 +240,7 @@
     <ClCompile Include="Game\private\Logger\RdrLogger.cpp" />
     <ClCompile Include="Game\private\Map\MapArea.cpp" />
     <ClCompile Include="Game\private\Map\MapAreasManager.cpp" />
-    <ClCompile Include="Game\private\Math\Math.cpp" />
+    <ClCompile Include="Game\private\Math\MathUtils.cpp" />
     <ClCompile Include="Game\private\Objects\RDREntity.cpp" />
     <ClCompile Include="Game\private\Objects\RdrHorse.cpp">
       <AssemblerOutput>NoListing</AssemblerOutput>
@@ -477,7 +477,7 @@
     <ClInclude Include="Game\public\Logger\RdrLogger.h" />
     <ClInclude Include="Game\public\Map\MapArea.h" />
     <ClInclude Include="Game\public\Map\MapAreasManager.h" />
-    <ClInclude Include="Game\public\Math\Math.h" />
+    <ClInclude Include="Game\public\Math\MathUtils.h" />
     <ClInclude Include="Game\public\native\enums.h" />
     <ClInclude Include="Game\public\native\main.h" />
     <ClInclude Include="Game\public\native\nativeCaller.h" />
@@ -488,7 +488,7 @@
     <ClInclude Include="Game\public\Objects\RDRPed.h" />
     <ClInclude Include="Game\public\Objects\RDRPlayer.h" />
     <ClInclude Include="Game\public\Pool\ObjectPool.h" />
-    <ClInclude Include="Game\public\rdr2.h" />
+    <ClInclude Include="Game\public\rdr2sdk.h" />
     <ClInclude Include="Game\public\RDREnums.h" />
     <ClInclude Include="Game\public\UI\UIPrompt.h" />
     <ClInclude Include="Game\public\UI\UISubTitle.h" />

@@ -5,7 +5,7 @@
 #include <cmath>
 
 #include "../../public/native/types.h"
-#include "../../public/Math/Math.h"
+#include "..\..\public\Math\MathUtils.h"
 	
 	
 

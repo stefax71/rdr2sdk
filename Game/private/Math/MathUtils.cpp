@@ -1,8 +1,4 @@
-#include "Math.h"
-
-#include <random>
-#include <string>
-#include "../../../Game/public/rdr2.h"
+#include "../../public/Math/MathUtils.h"
 
 
 //Converts Radians to Degrees
