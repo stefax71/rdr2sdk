@@ -2,10 +2,7 @@
 //little one-line function called '$' to convert $TRING into a hash-key:
 //Hash $(std::string str);
 
-#include "..\rdr2sdk.h"
-#include <math.h>
-#include <random>
-
+#include "../rdr2sdk.h"
 
 float degToRad(float degs);
 float distanceBetween(Vector3 A, Vector3 B);

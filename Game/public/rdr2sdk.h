@@ -1,3 +1,7 @@
+#include <math.h>
+#include <random>
+
+
 #include "Objects/RDRPlayer.h"
 #include "UI/UISubTitle.h"
 #include "Input/keyboard.h"
