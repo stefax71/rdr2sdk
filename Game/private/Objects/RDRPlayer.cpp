@@ -1,12 +1,5 @@
 ﻿#include "../../public/Objects/RDRPlayer.h"
 
-#include <sstream>
-
-#include "../../public/Objects/RDRPed.h"
-#include "../../public/Logger/RdrLogger.h"
-#include "../../public/Pool/ObjectPool.h"
-#include "../../public/Objects/RDREntity.h"
-
 namespace game
 {
     RdrEntity* RdrPlayer::get_entity_is_free_aiming_at() const

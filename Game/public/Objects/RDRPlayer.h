@@ -1,10 +1,7 @@
 ﻿#pragma once
 
-#include "../native/types.h"
-#include "../native/natives.h"
-#include "../Pool/ObjectPool.h"
-#include <memory>
 #include "RDRPed.h"
+#include "../rdr2sdk.h"
 
 namespace game
 {
