@@ -1,10 +1,11 @@
 #pragma once
+
 #include <set>
 #include <string>
 
 #include "../../public/native/types.h"
 
-enum class EZoneName
+enum class EZoneName: unsigned int
 {
     AMBARINO = 0xF2D2E4A4,
     GUARMA = 0x7356B8ED,
@@ -17,7 +18,7 @@ enum class EZoneName
     WEST_ELIZABETH = 0x4A4BFEE7,
 };
 
-enum class ETownName
+enum class ETownName: unsigned int
 {
     AGUASDULCES_FARM = 0x62A26859,
     AGUASDULCES_RUINS = 0x0BFD6F0A,
@@ -89,8 +90,8 @@ public:
     Vector3* bountyPostersCoords;
     Vector3* cellCoords;
     Vector3* moneyCoords;
-    int cellnumber;
+    long long cellnumber;
 
     MapArea(const char* name, EZoneName zone_name, ETownName town_name, Vector3 policeDeptCoords, Vector3 bountyPostersCoords, Vector3 moneyCoords,
-            Vector3 cellCoords, int cellnumber, float bountyPosterHeading = 0);
+            Vector3 cellCoords, long long cellnumber, float bountyPosterHeading = 0);
 };

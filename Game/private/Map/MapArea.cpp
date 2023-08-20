@@ -5,7 +5,7 @@
 
 
 
-MapArea::MapArea(const char* name, EZoneName zone_name, ETownName town_name, Vector3 policeDeptCoords, Vector3 bountyPostersCoords, Vector3 moneyCoords, Vector3 cellCoords, int cellnumber, float bountyPosterHeading)
+MapArea::MapArea(const char* name, EZoneName zone_name, ETownName town_name, Vector3 policeDeptCoords, Vector3 bountyPostersCoords, Vector3 moneyCoords, Vector3 cellCoords, long long cellnumber, float bountyPosterHeading)
 {
 	this->name = name;
 	this->town_hash_ = town_name;

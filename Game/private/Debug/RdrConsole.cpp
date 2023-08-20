@@ -52,7 +52,7 @@ void RdrConsole::update()
         }
         UIDEBUG::_BG_SET_TEXT_SCALE(0.25f, 0.25f);
         UIDEBUG::_BG_SET_TEXT_COLOR(255, 255, 255, 255);            
-        UIDEBUG::_BG_DISPLAY_TEXT((char*)MISC::_CREATE_VAR_STRING(10, "LITERAL_STRING", current_console_content_as_stream.str().c_str()), 0.01,
+        UIDEBUG::_BG_DISPLAY_TEXT((char*)MISC::_CREATE_VAR_STRING(10, "LITERAL_STRING", current_console_content_as_stream.str().c_str()), 0.01f,
                                   text_position);
         
     }
@@ -61,7 +61,7 @@ void RdrConsole::update()
     {
         UIDEBUG::_BG_SET_TEXT_SCALE(0.25f, 0.25f);
         UIDEBUG::_BG_SET_TEXT_COLOR(255, 234, 0, 255);
-        UIDEBUG::_BG_DISPLAY_TEXT((char*)MISC::_CREATE_VAR_STRING(10, "LITERAL_STRING", static_line_.c_str()), 0.01,
-                                  0.31);
+        UIDEBUG::_BG_DISPLAY_TEXT((char*)MISC::_CREATE_VAR_STRING(10, "LITERAL_STRING", static_line_.c_str()), 0.01f,
+                                  0.31f);
     }
 }

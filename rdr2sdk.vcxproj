@@ -475,6 +475,7 @@
     <ClInclude Include="Game\public\Debug\RdrConsole.h" />
     <ClInclude Include="Game\public\Input\keyboard.h" />
     <ClInclude Include="Game\public\Logger\RdrLogger.h" />
+    <ClInclude Include="Game\public\Map\map.h" />
     <ClInclude Include="Game\public\Map\MapArea.h" />
     <ClInclude Include="Game\public\Map\MapAreasManager.h" />
     <ClInclude Include="Game\public\Math\MathUtils.h" />
@@ -502,4 +503,5 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+  
 </Project>

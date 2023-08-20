@@ -155,5 +155,5 @@ void RdrLogger::set_file_name(const char* fileName)
 void displayDebugText(const char* text, float offset)
 {
 	UIDEBUG::_BG_SET_TEXT_SCALE(0.3f, 0.3f);
-	UIDEBUG::_BG_DISPLAY_TEXT((char*)MISC::_CREATE_VAR_STRING(10, "LITERAL_STRING", text), 0, 0.1);
+	UIDEBUG::_BG_DISPLAY_TEXT((char*)MISC::_CREATE_VAR_STRING(10, "LITERAL_STRING", text), 0, 0.1f);
 }

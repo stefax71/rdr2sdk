@@ -24,8 +24,8 @@ Vector3 getRandomPositionInRange(Vector3 center, int radius)
 	double y = topOrBottom * sqrt(pow(radius, 2) - pow(x - center.x, 2)) + center.y;
 	
 	Vector3 output;
-	output.x = x;
-	output.y = (float)y;
+	output.x = static_cast<float>(x);
+	output.y = static_cast<float>(y);
 	output.z = getGroundPos(output);
 	return output;
 }
@@ -111,12 +111,12 @@ Vector3 random_position_around(const Vector3& center, float distance, bool safe_
 	static std::mt19937 gen(rd());
 	static std::uniform_real_distribution<double> dis(0.0, 2.0 * M_PI);
 
-	float angle = dis(gen);
+	float angle = static_cast<float>(dis(gen));
 	
 	Vector3 position;
 	
-	position.x = center.x + (distance + 1) *  std::cos(angle);
-	position.y = center.y + (distance + 1) * std::sin(angle);
+	position.x = center.x + (distance + 1) *  std::cosf(angle);
+	position.y = center.y + (distance + 1) * std::sinf(angle);
 	position.z = center.z;
 	
 	if (safe_coords)

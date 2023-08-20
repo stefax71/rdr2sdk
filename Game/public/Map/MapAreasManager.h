@@ -1,9 +1,6 @@
 #pragma once
-#include <map>
-#include <memory>
-#include <vector>
 
-#include "MapArea.h"
+#include "map.h"
 
 using namespace std;
 

@@ -168,7 +168,7 @@ namespace game
 
     std::string RdrHorse::get_random_horse_model()
     {
-        int modelIndex = random_number_in_range(0, models.size() - 1);
-        return models[modelIndex];
+        const int model_index = random_number_in_range(0, static_cast<int>(models.size()) - 1);
+        return models[model_index];
     }
 }

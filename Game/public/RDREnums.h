@@ -1128,7 +1128,7 @@ namespace game
 
     enum EBlip : unsigned int
     {
-        BLIP_MOODIFIER_NONE = -1,
+        BLIP_MODIFIER_NONE = 0,
         BLIP_MODIFIER_ANIMAL_SKINNED = 0xFCAD9589,
         BLIP_MODIFIER_AREA = 0xA2814CC7,
         BLIP_MODIFIER_AREA_CLAMPED_PULSE = 0xA0A765A1,

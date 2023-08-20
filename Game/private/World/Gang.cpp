@@ -35,8 +35,8 @@ namespace gang
     {
         if (models.find(hash) != models.end() && !models[hash].empty())
         {
-            int modelIndex = random_number_in_range(0, models[hash].size() - 1);
-            return models[hash][modelIndex];
+            const int model_index = random_number_in_range(0, static_cast<int>(models[hash].size()) - 1);
+            return models[hash][model_index];
         }
         // Handle the case when the hash is not found or the vector is empty
         return "G_M_M_UniDuster_03";
