@@ -8,15 +8,6 @@ enum gender
     FEMALE
 };
 
-// enum eMetaPedType
-// {
-// 	MPT_MALE,
-// 	MPT_FEMALE,
-// 	MPT_TEEN,
-// 	MPT_ANIMAL,
-// 	MPT_NONE
-// };
-
 namespace game
 {
     class RdrPed : public RdrEntity

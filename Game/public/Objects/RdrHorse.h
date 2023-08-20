@@ -16,6 +16,7 @@ namespace game
         std::shared_ptr<game::RdrPed> ped_;
 
     public:
+        static std::vector<std::string> dutch_gang_horses;
         static std::vector<std::string> models;
 
         RdrHorse(std::string model, Vector3 position);

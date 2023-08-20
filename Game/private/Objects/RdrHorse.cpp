@@ -3,6 +3,23 @@
 
 namespace game
 {
+    std::vector<std::string> RdrHorse::dutch_gang_horses = {
+        "A_C_Horse_Gang_arthur",
+        "A_C_Horse_Gang_Bill",
+        "A_C_Horse_Gang_Charles",
+        "A_C_Horse_Gang_Charles_EndlessSummer",
+        "A_C_Horse_Gang_Hosea",
+        "A_C_Horse_Gang_Javier",
+        "A_C_Horse_Gang_John",
+        "A_C_Horse_Gang_Karen",
+        "A_C_Horse_Gang_Kieran",
+        "A_C_Horse_Gang_Sadie",
+        "A_C_Horse_Gang_Sean",
+        "A_C_Horse_Gang_Trelawney",
+        "A_C_Horse_Gang_Uncle",
+        "A_C_Horse_Gang_Uncle_EndlessSummer",        
+    };
+    
     std::vector<std::string> RdrHorse::models = {
         "A_C_Horse_AmericanPaint_Greyovero",
         "A_C_Horse_AmericanPaint_Overo",
@@ -52,20 +69,6 @@ namespace game
         "A_C_Horse_DutchWarmblood_SealBrown",
         "A_C_Horse_DutchWarmblood_SootyBuckskin",
         "A_C_Horse_EagleFlies",
-        "A_C_Horse_Gang_arthur",
-        "A_C_Horse_Gang_Bill",
-        "A_C_Horse_Gang_Charles",
-        "A_C_Horse_Gang_Charles_EndlessSummer",
-        "A_C_Horse_Gang_Hosea",
-        "A_C_Horse_Gang_Javier",
-        "A_C_Horse_Gang_John",
-        "A_C_Horse_Gang_Karen",
-        "A_C_Horse_Gang_Kieran",
-        "A_C_Horse_Gang_Sadie",
-        "A_C_Horse_Gang_Sean",
-        "A_C_Horse_Gang_Trelawney",
-        "A_C_Horse_Gang_Uncle",
-        "A_C_Horse_Gang_Uncle_EndlessSummer",
         "A_C_Horse_GypsyCob_PalominoBlagdon",
         "A_C_Horse_GypsyCob_Piebald",
         "A_C_Horse_GypsyCob_Skewbald",
